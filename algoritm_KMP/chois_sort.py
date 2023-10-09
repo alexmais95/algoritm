@@ -1,6 +1,3 @@
-import random
-
-
 class Sort:
 
     def find_min_element(self, lis_t):
@@ -20,6 +17,5 @@ class Sort:
         return sorted
 
 
-
 sort = Sort()
-print(sort.sort_list([l for l in range(random.randint(1, 1000))]))
+print(sort.sort_list([3, 1, 45, 12, 34, 2, 14]))
